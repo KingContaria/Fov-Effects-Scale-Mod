@@ -1,9 +1,16 @@
-# Fov-Effects-Scale-Mod
-Backports the FOV Effects Scale to older versions of the game (listed in README)
-by KingContaria
+# Fabric Example Mod
 
-# Versions it works in:
+## Setup
 
-1.8.9
+1. Edit gradle.properties, build.gradle and mod.json to suit your needs.
+    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
+    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
+2. Run the following command:
 
-Other versions may very well also work, I am just too lazy to test it. If you have tested it, you can message me on Discord (KingContaria#5081) and I will add it to the list.
+```
+./gradlew
+```
+
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
