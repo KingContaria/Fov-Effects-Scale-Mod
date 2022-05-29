@@ -6,7 +6,8 @@
   "mixins": [
     "OptionPairWidgetAccessor",
     "GameRendererMixin",
-    "VideoOptionsScreenMixin"
+    "VideoOptionsScreenMixin",
+    "GameOptionsMixin"
   ],
   "client": [
   ],
